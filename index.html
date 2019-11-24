@@ -17,7 +17,10 @@
     </div>
     <div class="row align-items-center justify-content-center">
     <div class="card" style="width: 500px; margin: 100px auto">
-      <img class="card-img-top"  id="image" src="http://www.aljanh.net/data/archive/img/1302947895.png" alt="Card image cap">
+      <div class="card-header">
+        <strong>Currently</strong>
+      </div>
+      <!-- <img class="card-img-top"  id="image" src="https://www.fonedog.com/image/weather-app.png" alt="Card image cap"> -->
       <div class="card-body">
         <h5 class="card-title" id="weather">Sunny</h5>
         <p class="card-text" id="message">You should really go outside today you lazy shit...</p>
@@ -26,7 +29,19 @@
         <li class="list-group-item"><strong>Temperature: <span id="temperature">59</span>&#176</strong></li>
       </ul>
       <div class="card-body">
-        <a href="#" class="card-link">Message Me Angrily</a>
+        <a href="#" onClick="parent.location='mailto:nthnlrichards@gmail.com?subject=Why did you make this? &cc=nthnlrichards@gmail.com'"class="card-link">Message Me Angrily</a>
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="card" style="height: 100%;">
+        <div class="card-header">
+          <strong>Today</strong>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item" id="today-summary">Might get a little better....</li>
+          <li class="list-group-item"><strong class="text-danger">Max: <span id="max">59</span>&#176</strong></li>
+          <li class="list-group-item"><strong class="text-primary">Min: <span id="min">59</span>&#176</strong></li>
+        </ul>
       </div>
     </div>
   </div>
