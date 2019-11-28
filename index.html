@@ -11,7 +11,7 @@
 </head>
 <body>
   
-  <div class="container">
+  <!-- <div class="container">
     <div class="row align-items-center justify-content-center">
         <h1 class="text-white text-center" style="border: 1px solid white; padding: 50px; width: 500px">BadWeather<i class="fas fa-cloud"></i></h1>
     </div>
@@ -20,7 +20,7 @@
       <div class="card-header">
         <strong>Currently</strong>
       </div>
-      <!-- <img class="card-img-top"  id="image" src="https://www.fonedog.com/image/weather-app.png" alt="Card image cap"> -->
+      
       <div class="card-body">
         <h5 class="card-title" id="weather">Sunny</h5>
         <p class="card-text" id="message">You should really go outside today you lazy shit...</p>
@@ -45,6 +45,57 @@
       </div>
     </div>
   </div>
+  </div> -->
+  <div class="container">
+    <nav class="navbar navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">BadWeather <i class="fas fa-cloud"></i></a>
+    </nav>
+    <div class="alert alert-warning" role="alert">
+      This Project Is In Development! You can <a href="https://github.com/NateTheDev1/BadWeather" target="_blank" class="alert-link">check out the code here</a>!
+    </div>
+    <br>
+    <div class="card text-center">
+      <div class="card-header">
+        About
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">BadWeather <i class="fas fa-cloud"></i></h5>
+        <p class="card-text">BadWeather was made for pure comedic purposes, don't take it to heart.</p>
+        <a href="#" onClick="parent.location='mailto:nthnlrichards@gmail.com?subject=Why did you make this? &cc=nthnlrichards@gmail.com'" class="btn btn-primary">Contact Me</a>
+      </div>
+      <div class="card-footer text-muted">
+        By Nathaniel Richards
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md">
+          <div class="card" style="margin-top: 50px ">
+            <div class="card-header">
+              <strong>Currently <i class="fas fa-cloud"></i></strong>
+            </div>
+            
+            <div class="card-body">
+              <h5 class="card-title" id="weather">Sunny</h5>
+              <strong><p class="card-text" id="message">You should really go outside today you lazy shit...</p></strong>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><strong>Temperature: <span id="temperature">59</span>&#176</strong></li>
+            </ul>
+          </div>
+      </div>
+        <div class="col-md" style="margin-top: 50px ">
+            <div class="card">
+                <div class="card-header">
+                  <strong>Today</strong>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item" id="today-summary">Might get a little better....</li>
+                  <li class="list-group-item"><strong class="text-danger">Max: <span id="max">59</span>&#176</strong></li>
+                  <li class="list-group-item"><strong class="text-primary">Min: <span id="min">59</span>&#176</strong></li>
+                </ul>
+              </div>
+        </div>
+    </div>
   </div>
 
 
@@ -56,6 +107,6 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <script src="app.js"></script>
+  <script src="app.js" type="text/javascript"></script>
 </body>
 </html>
